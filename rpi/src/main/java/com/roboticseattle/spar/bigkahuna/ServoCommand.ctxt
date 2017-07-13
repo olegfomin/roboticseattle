@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getPan()
+comment1.params=pan
+comment1.target=void\ setPan(int)
+comment2.params=
+comment2.target=int\ getTilt()
+comment3.params=tilt
+comment3.target=void\ setTilt(int)
+comment4.params=
+comment4.target=int\ getPanAsPwm()
+comment5.params=
+comment5.target=int\ getPanAsPwmX4()
+comment6.params=
+comment6.target=int\ getTiltAsPwm()
+comment7.params=
+comment7.target=int\ getTiltAsPwmX4()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=degree
+comment9.target=int\ degreeToPwm(int)
+numComments=10

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Acknowledgement()
+comment1.params=aCommandId
+comment1.target=Acknowledgement(java.lang.String)
+comment2.params=aCommand
+comment2.target=Acknowledgement(Command)
+comment3.params=
+comment3.target=java.lang.String\ getCommandId()
+comment4.params=aCommandId
+comment4.target=void\ setCommandId(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getDest()
+comment6.params=aDest
+comment6.target=void\ setDest(java.lang.String)
+numComments=7

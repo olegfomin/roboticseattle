@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Part()
+comment1.params=aSleepBetween
+comment1.target=Part(int)
+comment2.params=aNerve
+comment2.target=void\ start(com.roboticseattle.spar.mind.Nerve)
+comment3.params=
+comment3.target=void\ shutdown()
+comment4.params=
+comment4.target=void\ beforeLoop()
+comment5.params=counter
+comment5.target=void\ insideLoop(int)
+comment6.params=
+comment6.target=void\ afterLoop()
+comment7.params=
+comment7.target=java.lang.String\ painfulStuff()
+comment8.params=
+comment8.target=void\ insideInterrupted()
+comment9.params=
+comment9.target=void\ run()
+numComments=10

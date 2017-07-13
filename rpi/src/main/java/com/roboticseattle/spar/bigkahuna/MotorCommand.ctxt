@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MotorCommand()
+comment1.params=
+comment1.target=int\ getLeft()
+comment2.params=
+comment2.target=byte\ getLeftAsByte()
+comment3.params=left
+comment3.target=void\ setLeft(int)
+comment4.params=
+comment4.target=int\ getRight()
+comment5.params=
+comment5.target=byte\ getRightAsByte()
+comment6.params=right
+comment6.target=void\ setRight(int)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

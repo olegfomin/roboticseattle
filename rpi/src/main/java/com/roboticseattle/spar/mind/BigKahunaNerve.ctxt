@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ onConnected()
+comment1.params=servoCommand
+comment1.target=void\ onServoCommand(com.roboticseattle.spar.bigkahuna.ServoCommand)
+comment2.params=motorCommand
+comment2.target=void\ onMotorCommand(com.roboticseattle.spar.bigkahuna.MotorCommand)
+comment3.params=phrase
+comment3.target=void\ onMouthCommand(com.roboticseattle.spar.bigkahuna.MouthCommand)
+comment4.params=faceCommand
+comment4.target=void\ onFaceCommand(com.roboticseattle.spar.bigkahuna.FaceCommand)
+comment5.params=heartBeat
+comment5.target=void\ onHeartBeat(com.roboticseattle.spar.bigkahuna.HeartBeat)
+comment6.params=eyeCommand
+comment6.target=void\ onEyeCommand(com.roboticseattle.spar.bigkahuna.EyeCommand)
+numComments=7

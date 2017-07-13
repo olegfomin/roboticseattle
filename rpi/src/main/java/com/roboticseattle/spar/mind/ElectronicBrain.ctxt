@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=parent\ face\ mouth\ eye\ ear\ neck\ legs\ sonars\ bigKahuna\ portola
+comment0.target=ElectronicBrain(com.roboticseattle.spar.Spar,\ com.roboticseattle.spar.body.Face,\ com.roboticseattle.spar.body.Mouth,\ com.roboticseattle.spar.body.Eye,\ com.roboticseattle.spar.body.Ear,\ com.roboticseattle.spar.body.Neck,\ com.roboticseattle.spar.body.Legs,\ com.roboticseattle.spar.body.Sonars,\ com.roboticseattle.spar.bigkahuna.BigKahuna,\ com.roboticseattle.spar.body.Portola)
+comment1.params=
+comment1.target=void\ start()
+comment2.params=
+comment2.target=void\ run()
+numComments=3

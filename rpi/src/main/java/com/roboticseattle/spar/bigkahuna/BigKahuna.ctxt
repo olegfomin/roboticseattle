@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=address
+comment0.target=BigKahuna(java.lang.String)
+comment1.params=nerve
+comment1.target=void\ start(com.roboticseattle.spar.mind.Nerve)
+comment2.params=session\ message
+comment2.target=void\ onText(org.eclipse.jetty.websocket.api.Session,\ java.lang.String)
+comment3.params=session
+comment3.target=void\ onConnect(org.eclipse.jetty.websocket.api.Session)
+comment4.params=str
+comment4.target=void\ sendMessage(java.lang.String)
+comment5.params=ack
+comment5.target=void\ sendAcknowledgement(Acknowledgement)
+comment6.params=bytes\ offset\ length
+comment6.target=void\ sendEyeBytes(byte[],\ int,\ int)
+comment7.params=bytes\ offset\ length
+comment7.target=void\ sendEarBytes(byte[],\ int,\ int)
+comment8.params=
+comment8.target=java.util.concurrent.CountDownLatch\ getLatch()
+numComments=9

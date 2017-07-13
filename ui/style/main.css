@@ -1,0 +1,271 @@
+body {
+    background-repeat: no-repeat;
+    background: gray;
+    margin-top: 2px;
+    margin-left: 1px;
+    height: 100%;
+}
+
+body > div {
+    display: block;
+    width: 720px;
+    margin-left: 1px;
+}
+
+body > div > div {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+h4 {
+    text-align: center;
+    font-size: smaller;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+    border: 1px solid black;
+    width: 160px;
+    height: 120px;
+}
+
+span[title] {
+  font-style: italic;
+}
+
+.ui-tabs>.ui-tabs-nav>.ui-state-disabled {
+    display: none;
+}
+
+.fly-over {
+    display: none;
+}
+
+#fly-dest {
+    display: none;
+}
+
+.btn-small {
+    height: 36px; width: 36px;
+}
+
+.knob-forward {
+    height: 32px; width: 32px; border: 2px solid navy;  background-image: url("../icons/knob-forward.png"); left: 140px; top: 120px;
+}
+
+.knob-back {
+    height: 32px; width: 32px; border: 2px solid navy;  background-image: url("../icons/knob-back.png"); left: 140px; top: 0px;
+}
+
+.knob-rotate {
+    height: 150px; width: 32px; border: 2px solid navy;  background-image: url("../icons/knob-rotate.png"); left: 140px; top: 0px;
+}
+
+.knob-halt {
+    height: 0px; width: 0px; left: 0px; top: 0px;
+}
+
+.joystick-header {
+    width: 155px;
+    background-color: powderblue;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 0px;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder
+}
+
+.knob-container {
+    height: 155px; width: 316px; background-color: gainsboro; border: 1px solid black;
+}
+
+.joystick-footer {
+    border: 1px solid green; margin-top: 2px; width: 316px;
+}
+
+.btn-thumb-up {
+    background-image: url("../icons/btn-thumb-up.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    border-width: 1px;
+}
+
+.btn-thumb-up-a {
+    background-image: url("../icons/btn-thumb-up-a.png");
+    border-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 1px;
+}
+
+.btn-thumb-down {
+    background-image: url("../icons/btn-thumb-down.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    border-width: 1px;
+}
+
+.btn-thumb-down-a {
+    background-image: url("../icons/btn-thumb-down-a.png");
+    border-color: red;
+    border-width: 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-halt {
+    background-image: url("../icons/btn-halt.png");
+    border-width: 0px;
+}
+
+.btn-halt-a {
+    background-image: url("../icons/btn-halt-a.png");
+    border-color: red;
+    border-width: 1px;
+}
+
+.btn-forward {
+    background-image: url("../icons/btn-forward.png");
+    border-width: 0px;
+}
+
+.btn-forward-a {
+    background-image: url("../icons/btn-forward-a.png");
+    border-color: red;
+    border-width: 1px;
+}
+
+.btn-rotate {
+    background-image: url("../icons/btn-rotate.png");
+    border-width: 0px;
+}
+
+.btn-rotate-a {
+    background-image: url("../icons/btn-rotate-a.png");
+    border-color: red;
+    border-width: 1px;
+}
+
+.btn-back {
+    background-image: url("../icons/btn-back.png");
+    border-width: 0px;
+}
+
+.btn-back-a {
+    background-image: url("../icons/btn-back-a.png");
+    border-color: red;
+    border-width: 1px;
+}
+
+.mode-btn {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vehicle {
+    height: 133px; width: 130px; border: 1px solid navy; background-image: url("../images/vehicle.png"); margin-left: 2px; margin-top: 2px;
+}
+
+.expression-btn {
+    width: 50px;
+    height: 38px;
+    margin-left: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-mood-active {
+    border: 2px solid red;
+}
+
+.btn-mood-passive {
+    border: 1px solid green;
+}
+
+
+.btn-robot-idle {
+    background-image: url("../icons/robot/idle.png");
+}
+
+.btn-robot-look-left {
+    background-image: url("../icons/robot/look_left.png");
+}
+
+.btn-robot-look-right {
+    background-image: url("../icons/robot/look_right.png");
+}
+
+.btn-robot-excited {
+    background-image: url("../icons/robot/excited.png");
+}
+
+.btn-robot-speaking {
+    background-image: url("../icons/robot/speaking.png");
+}
+
+.btn-robot-sad {
+    background-image: url("../icons/robot/sad.png");
+}
+
+.btn-robot-play-music {
+    background-image: url("../icons/robot/play_music.png");
+}
+
+.btn-robot-bored {
+    background-image: url("../icons/robot/bored.png");
+}
+
+.btn-robot-think {
+    background-image: url("../icons/robot/think.png");
+}
+
+.btn-robot-highfive {
+    background-image: url("../icons/robot/highfive.png");
+}
+
+.btn-microphone-off {
+    background-image: url("../icons/microphone-off.png");
+}
+
+.btn-microphone-on {
+    background-image: url("../icons/microphone-on.png");
+}
+
+.btn-microphone-chg {
+    background-image: url("../icons/microphone-chg.png");
+}
+
+.btn-camera-off {
+    background-image: url("../icons/camera-off.png");
+}
+
+.btn-camera-on {
+    background-image: url("../icons/camera-on.png");
+}
+
+.btn-camera-chg {
+    background-image: url("../icons/camera-chg.png");
+}
+
+.btn-heart-arrest {
+    background-image: url("../icons/heart-arrest.png");
+}
+
+.btn-heart-1 {
+    background-image: url("../icons/heart-1.png");
+}
+
+.btn-heart-2 {
+    background-image: url("../icons/heart-2.png");
+}
+
+.voting {
+    margin-left: 150px;
+}

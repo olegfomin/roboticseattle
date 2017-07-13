@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ beforeLoop()
+comment1.params=counter
+comment1.target=void\ insideLoop(int)
+comment2.params=
+comment2.target=void\ afterLoop()
+comment3.params=
+comment3.target=java.lang.String\ painfulStuff()
+comment4.params=
+comment4.target=void\ insideInterrupted()
+numComments=5

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getExpression()
+comment1.params=expression
+comment1.target=void\ setExpression(java.lang.String)
+comment2.params=
+comment2.target=com.roboticseattle.spar.body.Face.State\ getFaceState()
+numComments=3

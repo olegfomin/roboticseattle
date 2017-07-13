@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=chunk\ offset\ len
+comment0.target=void\ onNewAudible(byte[],\ int,\ int)
+numComments=1

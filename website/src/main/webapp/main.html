@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robotic Seattle</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link href="jquery/jquery-ui.css" rel="stylesheet">
+    <script src="jquery/external/jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+</head>
+<body>
+</div>
+  <div>
+    <div>
+        <header>
+            <h4><span style="color: darkslategray">Robotic</span> <span style="color: green">Seattle</span>: The dawn of self-propelled online-accessible devices</h4>
+        </header>
+    </div>
+    <div>
+       <div id="tabs">
+          <ul>
+              <li><a href="#main">Main</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#try">Try</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#more">More ...</a></li>
+          </ul>
+          <div id="main">
+              <p><a id="main-img-a" href="images/main-acc-intro.png" onclick="return morePicRef('main-img');"><img id="main-img" src="images/small/main-acc-intro.png"/></a> Hello! My name is <span class="spar">S.P.A.R.</span> That stands for the <span style="color: red">Self</span> <span style="color: yellowgreen">Propelled</span> <span style="color: green">Autonomous</span> <span style="color: navy">Robot</span>.
+                I am a machine that can be controlled over the internet <a href='main.html#try' onclick="return activateSection('try')">right from your browser</a>!
+                The 4G network connection allows me to utilize <span title="My next action can be decided based upon the information around me that I constantly transmit over.">the power</span> of the Amazon cloud anywhere I go.
+                I am build to drive over <a href='images/main-rough-terrain.jpg' onclick="return morePicUrl('images/main-rough-terrain.jpg');">the rough terrains</a> of the real world outside.
+                I am a unique prototype that can be used for various applications in the future. </p>
+              <div id="main-acc" class="accordion right-top-picture">
+                  <h3>How it all started ...</h3>
+                  <div id="main-acc-intro">
+                      <p>
+                          Many real world tasks can be automated thus making your world a better place.
+                          Right now this process takes place inside the factory buildings while outdoors are mostly left for the people to explore and take care of.
+                          The <span class="spar">S.P.A.R.</span> project was originally intended to demonstrate that the smart moving machines can be very useful in some routine tasks outside.
+                          The growing 4G networks provide the fast and reliable connection to a computer cloud therefore allowing the robots to receive that extra bit of brain power they were lacking before.
+                          In other words we as humans have reached <a href="https://en.wikipedia.org/wiki/The_Tipping_Point" onclick="return more('https://en.wikipedia.org/wiki/The_Tipping_Point');">the tipping point</a> in robotic evolution
+                          and the <span class="spar">S.P.A.R.</span> is going to prove it! The devices like this will turn the evolution into the long awaited revolution.
+                          The ultimate goal of the <span class="spar">S.P.A.R.</span> and <a href="images/main-acc-intro-brother.jpg" onclick="return morePicUrl('images/main-acc-intro-brother.jpg');">its little brother</a> was to become an automated gold searching machine that utilizes
+                          <a href="http://www.bbc.com/news/world-asia-21055206" onclick="return more('http://www.bbc.com/news/world-asia-21055206');" >a metal detector</a> attached as a tool.
+                          <br/>
+                          <br/>
+                          <br/>
+                   </p>
+                  </div>
+                  <h3>S.P.A.R. is unique ...</h3>
+                  <div id="main-acc-unique">
+                      <p>
+                          <span class='spar'>S.P.A.R.</span> is one of the very first machines that combines the following features and ideas into one solution:
+                          <ul>
+                            <li><a href='main.html#try' onclick="return activateSection('try')">A life operator can control <span class="spar">S.P.A.R.</span> over the Internet</a></li>
+                            <li><a href='ext/main-acc-unique-ai.html' onclick="return more('ext/main-acc-unique-ai.html');">The Artificial Intelligence decisions can be made by a 'cloud'</a></li>
+                            <li>Designed to work outdoors (<a href="images/main-acc-unique-chassis.jpg" onclick="return morePicUrl('images/main-acc-unique-chassis.jpg');">see chassis specification</a>)</li>
+                            <li>Able to listen and see (<a href="images/main-acc-unique-able2see.jpg" onclick="return morePicUrl('images/main-acc-unique-able2see.jpg');">camera and microphone</a>)</li>
+                            <li>Equipped with four ultrasonic sonars (<a href="images/main-acc-unique-sonar.jpg" onclick="return morePicUrl('images/main-acc-unique-sonar.jpg');">Parallax sonar</a>)</li>
+                            <li>Able <span title="The Google's offline Pico Text-To-Speech engine is used">speak English</span> and sing <a href="ext/main-acc-unique-2-songs.html" onclick="return more('ext/main-acc-unique-2-songs.html')">two songs</a></li>
+                            <li>Battery replacement mechanism (<a href="images/main-acc-unique-battery.jpg" onclick="return morePicUrl('images/main-acc-unique-battery.jpg');">See how simple & reliable</a>)</li>
+                            <li>Able to express <a href="images/main-acc-unique-emotions.png" onclick="return morePicUrl('images/main-acc-unique-emotions.png');">facial emotions</a></li>
+                            <li>Pan/Tilt for camera and microphone (<a href="images/main-acc-unique-pantilt.jpg" onclick="return morePicUrl('images/main-acc-unique-pantilt.jpg');">here is how</a>)</li>
+                            <li>Self calibrating motors (based on a <a href="https://en.wikipedia.org/wiki/Hall_effect_sensor" onclick="return more('https://en.wikipedia.org/wiki/Hall_effect_sensor');">hall effect sensor</a>)</li>
+                          </ul>
+                      </p>
+                  </div>
+                  <h3>We'll all benefit ...</h3>
+                  <div id="main-acc-useful">
+                      <p>Robots like <span class="spar">S.P.A.R.</span> will be able to tackle the real world tasks that may include:
+                          <ul>
+                            <li>Search
+                                <ul>
+                                    <li>Scan designated area for valuables</li>
+                                    <li>Scan designated area for dangerous objects</li>
+                                </ul>
+                            </li>
+                            <li>Services
+                                <ul>
+                                  <li>Provides advertisement and information</li>
+                                </ul>
+                            </li>
+                            <li>Security
+                                <ul>
+                                    <li>Scan designated area for dangerous objects</li>
+                                    <li>Scouting and watching for intruders</li>
+                                </ul>
+                            </li>
+                            <li>Entertainment
+                                <ul>
+                                  <li>Being a moving target for an air-rifle</li>
+                                  <li>Remote tourism & photography</li>
+                                </ul>
+                            </li>
+                            <li>Farming
+                                <ul>
+                                  <li>Plowing a field on the automated farm</li>
+                                </ul>
+                            </li>
+                          </ul>
+                      </p>
+                  </div>
+                  <h3>S.P.A.R design ...</h3>
+                  <div id="main-acc-decisions" class="jpg-ext">
+                      <p>
+                        Here is the list of most important decisions that were made during the <span class="spar">S.P.A.R.</span> development:
+                          <ul>
+                            <li><a href="ext/main-acc-decisions-open-source.html" onclick="return more('ext/main-acc-decisions-open-source.html');">Open Source is the way!</a></li>
+                            <li>Electronic brain takes away my pain</li>
+                            <li><a href="https://en.wikipedia.org/wiki/WebSocket" onclick="return more('https://en.wikipedia.org/wiki/WebSocket');">Web-Sockets</a> + HTML5</li>
+                            <li><a href="images/main-acc-decisions-rp.jpg" onclick="return morePicUrl('images/main-acc-decisions-rp.jpg');">Raspberry Pi 2</a></li>
+                            <li><a href="images/main-acc-decisions-arduino.jpg" onclick="return morePicUrl('images/main-acc-decisions-arduino.jpg');">Arduino</a></li>
+                            <li><a href="images/main-acc-decisions-pololu.jpg" onclick="return morePicUrl('images/main-acc-decisions-pololu.jpg');"> Pololu controllers</a></li>
+                            <li><a href="images/main-acc-unique-sonar.jpg" onclick="return morePicUrl('images/main-acc-unique-sonar.jpg');">Parallax sonars</a></li>
+                            <li><span title="Their one year free EC2 VM is hard to beat. Kudos to Amazon!">Amazon EC2</span></li>
+                            <li><a href="images/main-acc-unique-battery.jpg" onclick="return morePicUrl('images/main-acc-unique-battery.jpg');">Easily replaceable Lithium batteries</a></li>
+                            <li><a href="images/main-acc-unique-chassis.jpg" onclick="return morePicUrl('images/main-acc-unique-chassis.jpg');">Sturdy chassis</a></li>
+                          </ul>
+                         I'll release the separate YouTube videos on every topic of <span class="spar">S.P.A.R.</span> design later.
+                      </p>
+                  </div>
+              </div>
+
+          </div>
+          <div id="projects">
+              <p><a id="projects-img-a" href="images/projects-acc-spar.jpg" onclick="return morePicRef('projects-img');"><img id="projects-img" src="images/small/projects-acc-spar.jpg"/></a>Here below I'll enlist a few
+                  high priority ideas. My dear reader, your opinion is really valuable for me so I implemented the voting functionality here.
+                  Please cast your ballot to the solution that is the most appealing to you personally.
+              </p>
+              <div id="projects-acc" class="accordion right-top-picture">
+                  <h3>S.P.A.R. development ...</h3>
+                  <div id="projects-acc-spar" class="jpg-ext">
+                    <p>
+                      As a life operator I must admit that the <span class="spar">S.P.A.R.</span> is not easy to control online because this machine really needs some improvements waiting to be addressed sooner of later:
+                        <ul>
+                          <li>2D Map</li>
+                          <li>Joystick control</li>
+                          <li>Stand-alone application instead of HTML5</li>
+                          <li>Better streaming protocols</li>
+                          <li>G.P.S.</li>
+                          <li>Rear mirrors</li>
+                          <li>Predictive graphics</li>
+                          <li>Vision through the Virtual Reality goggles (3D)</li>
+                        </ul>
+                      <div class="voting">
+                        <button id="btn-spar-like" class="btn-small btn-thumb-up" title="Yes, I like this project"/><span style="margin-left: 40px; font-size: small" id="spn-spar-like">0000</span>
+                        <button id="btn-spar-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I don't like this project"/> <span style="margin-left: 40px; font-size: small" id="spn-spar-dislike">0000</span>
+                      </div>
+                    </p>
+                  </div>
+                  <h3>Automated battery exchange system ...</h3>
+                  <div id="projects-acc-abes" class="jpg-ext">
+                      <p>
+                          The batteries are everywhere.
+                          Having to need the philips screwdriver to exchange the disposable batteries for electricity powered equipment is rather preposterous.
+                          Putting the electronic device into the docking station or <span title="connecting it through the USB cable to the power source ">equivalent</span> for a prolong period of time is not ideal either.
+                          What should have been done long ago is a battery exchange mechanism that would replace a depleted battery with a newly charged one in a matter of seconds.
+                          It would have been an ideal solution if the process is completely automated not requiring any human involvement.
+                          For the robots like S.P.A.R. I believe it is an absolutely essential high priority task that would allow the robot to fulfil its duties day and night without unnecessary interruptions ...
+                          <div class="voting">
+                            <button id="btn-abes-like" class="btn-small btn-thumb-up" title="Yes, I like this project"/><span style="margin-left: 40px; font-size: small" id="spn-abes-like">0000</span>
+                            <button id="btn-abes-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I don't like this project"/> <span style="margin-left: 40px; font-size: small" id="spn-abes-dislike">0000</span>
+                          </div>
+                      </p>
+                  </div>
+                  <h3>Moving target ...</h3>
+                  <div id="projects-acc-target" class="jpg-ext">
+                      <p>People usually spend 30% of their time foraging for food and about 70% for entertainment. Have you ever been to a shooting range? Let's admit it we, especially males, like to hit a target with a projectile. However it gets boring after a while if the target is static and does not move.
+                      I really hope that my project to create an armored and re-enforced robot that can move around will take this boredom away. Imagine you can put a cheap dinosaur model on top and start firing away at it
+                      from the distance while the robot makes evasive moves and slowly approaching you. It can be quite fun I believe. Would you think it is not too difficult to implement?
+                        <div class="voting">
+                            <button id="btn-target-like" class="btn-small btn-thumb-up" title="Yes, I like this project"/><span style="margin-left: 40px; font-size: small" id="spn-target-like">0000</span>
+                            <button id="btn-target-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I don't like this project"/> <span style="margin-left: 40px; font-size: small" id="spn-target-dislike">0000</span>
+                        </div>
+                      </p>
+                  </div>
+                  <h3>Search for gold and spiders ...</h3>
+                  <div id="projects-acc-search" class="jpg-ext">
+                      <p>Ok, it was my original idea to supply a robot with a metal detector and deploy this machine into the depth of the Washington or Oregon States in search for gold. However the creeks turned out to
+                      be quite a challenging terrain for the robot to navigate through.
+                      Moving a little bit south may make change your priorities from gold searching to evading venomous things for both you and your kids. That's where I
+                      started thinking for scanning the area in search for sources of danger. Let's admit it, the <a>Raspberry Pi</a> is not qualified much for the computer vision (CV) tasks however the 4G networks are wide spread in
+                      the developed world and a 'cloud' has enough power to discern a spider of a snake on a picture.
+                        <div class="voting">
+                            <button id="btn-search-like" class="btn-small btn-thumb-up" title="Yes, I like this project"/><span style="margin-left: 40px; font-size: small" id="spn-search-like">0000</span>
+                            <button id="btn-search-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I don't like this project"/> <span style="margin-left: 40px; font-size: small" id="spn-search-dislike">0000</span>
+                        </div>
+                      </p>
+                  </div>
+                  <h3>Tractor plows the soil ... </h3>
+                  <div id="projects-acc-tractor" class="jpg-ext">
+                      <p>I was fascinated about the sheer power and look of tractors from my early childhood.
+                         I am a firm believer that as soon as everyone gets a healthy layer of fat under their skin and all of us got the fresh water to drink and a decent shelter to reside under with our kids then
+                         the most acute conflicts in our lives will vanish without trace. Can a robotic tractor help? The tractor are usually slow moving vehicles and they are working on the wide open spaces and therefore they
+                         can be autonomous and/or remotely controlled/supervised over the 4G networks, aren't they? Put a robot on a mini tractor and supply that machine with a couple of strong hands and you shall have an
+                         ultimate farm helper that would make an entire planet well fed and full of all necessary items.
+                         <div class="voting">
+                            <button id="btn-tractor-like" class="btn-small btn-thumb-up" title="Yes, I like this project"/><span style="margin-left: 40px; font-size: small" id="spn-tractor-like">0000</span>
+                            <button id="btn-tractor-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I don't like this project"/> <span style="margin-left: 40px; font-size: small" id="spn-tractor-dislike">0000</span>
+                         </div>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div id="schedule">
+               <p><a id="schedule-img-a" href="images/schedule-acc-web.gif" onclick="return morePicRef('schedule-img');"><img id="schedule-img" src="images/small/schedule-acc-web.gif"/></a>Here below is the schedule of events I am planing to host. During the month of July I am going to show <span class="spar">S.P.A.R.</span> to anybody who is interested.
+                   The venue is going to be somewhere near the beautiful city of Seattle. You will be able to pose your questions to my self propelled machine and hopefully it is going to be able to answer.
+                   You can also take a complete control of the device online and see the world through the <span class="spar">S.P.A.R.</span> eyes.
+               </p>
+               <div id="schedule-acc" class="accordion right-top-picture">
+                   <h3>Jul-4: Publishing the web-site ...</h3>
+                   <div id="schedule-acc-web" class="gif-ext">
+                       <p>This web-site goes life. However some important functions are going to be disabled still.
+                           I believe the most interesting and unique feature of this site is the ability to control a life vehicle right from you browser.
+                           However, honestly speaking, this is not going to be available for another month as I have to test the vehicle myself and then
+                           I have to figure out how to provide adequate safety measures. The latency is the main factor I'll have to take
+                           into account. Still please check this web-site often as I issue the updates on this schedule.
+                           <br>
+                           <br>
+                           <br>
+                           <br>
+                       </p>
+                   </div>
+                   <h3>Jul-10: Publishing the YouTube video ...</h3>
+                   <div id="schedule-acc-youtube" class="gif-ext">
+                       <p>The first YouTube video about <span class="spar">S.P.A.R.</span> is released. This is a very short video showing how my robot can 'walk', and 'talk' and solve basic tasks.
+                          You are able to see 'good, bad and ugly'. This video is the first video I have ever made for the YouTube so please do not expect a Hollywood like quality.
+                           The link will appear here below as soon as the video is released.
+                       </p>
+                   </div>
+                   <h3>Jul-13: The robot Walk & Talk ...</h3>
+                   <div id="schedule-acc-walktalk" class="gif-ext">
+                       <p>Here at Downtown Bellevue Park I am going to make couple of loops around while the <span class="spar">S.P.A.R.</span> is going to follow me like a pet.
+                          I believe the <span class="spar">S.P.A.R.</span>'s battery capacity will last about one hour.
+                           We are going to show outside at about noon or so. Please make sure to check this web-site again as the updates will be posted about both venue and time.
+                           You shall be able to interact with the 'robotic mind' in person.
+                       </p>
+                   </div>
+                   <h3>August 2016: Drive the robot ... </h3>
+                   <div id="schedule-acc-drive" class="gif-ext">
+                       <p>Here below you can sign up for riding my robotic device right from your browser. The main venues are going to be Issaquah, Snoqualmie, Bellevue Mercer Slough and everything else in
+                       the beautiful greater Seattle's East where 4G networks are abound. Please be sure to remember that delays are the name of the game.
+                       So the latencies can make it look like you drive a moon rover rather :-)  </p>
+                       <div class="voting">
+                           <button id="btn-drive-like" class="btn-small btn-thumb-up" title="Yes, I would like to drive it eventually"/><span style="margin-left: 40px; font-size: small" id="spn-drive-like">0000</span>
+                           <button id="btn-drive-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I would not like to drive it"/> <span style="margin-left: 40px; font-size: small" id="spn-drive-dislike">0000</span>
+                       </div>
+                   </div>
+                   <h3>Sep 2016: S.P.A.R. in depth ... </h3>
+                   <div id="schedule-acc-indepth" class="gif-ext">
+                       <p>I am going to give couple of in-depth presentations in September. The group size is going to be about six people.
+                          Each session will last about one and half hours.
+                          To take the most from this lecture. You shall have to bring your own laptop with the Arduino IDE and the TightVNC already installed.
+                          I have got couple of extra Arduinos, one Raspberry PI, and couple of servo mechanisms and motors that we would control over the internet.
+                          The venue is going to be in the business center of apartment block where I am currently renting.
+                          <div class="voting">
+                             <button id="btn-session-like" class="btn-small btn-thumb-up" title="Yes, I would like to attend the session"/><span style="margin-left: 40px; font-size: small" id="spn-session-like">0000</span>
+                             <button id="btn-session-dislike" class="btn-small btn-thumb-down" style="margin-left: 120px" title="No, I would not like to attend"/> <span style="margin-left: 40px; font-size: small" id="spn-session-dislike">0000</span>
+                          </div>
+                       </p>
+                   </div>
+               </div>
+          </div>
+          <div id="try">
+              <div style="padding-left: 14px">
+                  <div>
+                      <div id="pan-slider" style="width: 640px" title="Pan servo mechanism"></div>
+
+                      <div style="display: flex; margin-left: -16px">
+                          <div id="tilt-slider" style="height: 480px" title="Tilt servo mechanism"></div>
+                          <div><canvas id="robot-eye" width="640" height="480"/></div>
+                      </div>
+                  </div>
+                  <div style="display: flex">
+                      <div style="height: 205px; width: 200px; border: 1px solid black; padding-left: 2px; background-color: #a6c9e2;">
+                          <div style="width: 196px; background-color: #a6c9e2; margin-bottom: 2px; margin-top: 2px; padding: 0px; text-align: center; font-size: small; font-weight: bolder"><span>Sonar Outputs</span></div>
+                          <div style="height: 178px; width: 196px; background-color: azure; border: 1px solid black">
+                              <div style="width: 190px; height: 19px"><span id="forward-distance" style="margin-left: 88px; font-weight: bolder; font-size: x-small">&gt;10'</span></div>
+                              <div style="display: flex">
+                                  <div style="width: 30px; padding-top: 90px;"><span id="left-distance" style="font-weight: bolder; font-size: x-small; margin-left: 2px">&gt;10'</span></div>
+                                  <div class="vehicle"></div>
+                                  <div style="padding-top: 90px;"><span id="right-distance" style="font-weight: bolder; font-size: x-small; margin-left: 2px">&gt;10'</span></div>
+                              </div>
+                              <div style="width: 190px"><span id="back-distance" style="margin-left: 88px; font-weight: bolder; font-size: x-small">&gt;10'</span></div>
+                          </div>
+                      </div>
+                      <div style="height:192px; width:40px; margin-left: 5px; border: double; padding-left: 5px; padding-top: 10px">
+                          <button id="btn-microphone" class="btn-small btn-microphone-off" title="Microphone on/off" disabled="disabled"/>
+                          <button id="btn-camera" class="btn-small btn-camera-off" title="Camera on/off" disabled="disabled"/>
+                          <button id="btn-heart" style="margin-top: 80px; font-size: small; padding-left: 0px; color: black" class=" btn-small btn-heart-arrest" title="Connection health" disabled="disabled"></button>
+                      </div>
+                      <div style="display: flex; margin-left: 5px">
+                          <div style="height: 205px; width: 366px; border: 1px solid black; padding-left: 2px; background-color: powderblue; margin-left: 5px">
+                              <div style="display: flex">
+                                  <div id="motor-control-mode" style="margin-top: 14px; width: 50px">
+                                      <button id="btn-halt" class="mode-btn btn-halt-a" knob-x="0px" knob-y="0px" title="Halt motors" disabled="disabled"/>
+                                      <button id="btn-forward" class="mode-btn btn-forward" knob-x="140px" knob-y="120px" title="Both motors forward" disabled="disabled"/>
+                                      <button id="btn-rotate" class="mode-btn btn-rotate" knob-x="140px" knob-y="0px" title="One forward, one backward" disabled="disabled"/>
+                                      <button id="btn-back" class="mode-btn btn-back" knob-x="140px" knob-y="0px" title="Both motors backward" disabled="disabled"/>
+                                  </div>
+                                  <div style="margin-right: 2px">
+                                      <div class="joystick-header"><span>Motor Control</span></div>
+                                      <div id="knob-container" class="knob-container">
+                                          <div id="motor-control" class="knob-forward" style="display: none"></div>
+                                      </div>
+                                      <div class="joystick-footer"><span style="font-size: x-small; margin-bottom: 2px; margin-top: 2px; text-align: center;"><span style="margin-left: 5px">Left:</span><span id="left-motor" style="font-weight: bolder">000</span><span style="margin-left: 200px">Right:</span><span id="right-motor" style="font-weight: bolder">000</span></span></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div style="width:640px; margin-top: 10px; display: flex"><form><input style="width:550px" type="text" id="txt-say" value="I am ready to execute the next instruction." title="phrase" disabled="disabled"/><input value="say" type="submit" id="btn-say" style="margin-left: 5px" title="Utter the phrase" disabled="disabled"/></form></div>
+                  <div style="width:640px; margin-top: 2px; display: flex">
+                      <div>
+                          <button id="btn-robot-idle" class="expression-btn btn-robot-idle btn-mood-passive" title="idle" value="IDLE" title="Idle" disabled="disabled"/>
+                          <button id="btn-robot-look-left" class="expression-btn btn-robot-look-left btn-mood-passive" title="looking left" value="LOOKING_LEFT" title="Looking left" disabled="disabled"/>
+                          <button id="btn-robot-look-right" class="expression-btn btn-robot-look-right btn-mood-passive" title="looking right" value="LOOKING_RIGHT" title="Looking right" disabled="disabled"/>
+                          <button id="btn-robot-think" class="expression-btn btn-robot-think btn-mood-passive" title="thinking" value="THINKING" title="Puzzled ..." disabled="disabled"/>
+                          <button id="btn-robot-excited" class="expression-btn btn-robot-excited btn-mood-passive" title="excited" value="EXCITED" title="Excited" disabled="disabled"/>
+                          <button id="btn-robot-speaking" class="expression-btn btn-robot-speaking btn-mood-passive" title="speaking" value="SPEAKING" title="Speaking" disabled="disabled"/>
+                          <button id="btn-robot-highfive" class="expression-btn btn-robot-highfive btn-mood-passive" title="high five" value="HIGH_FIVE" title="High five" disabled="disabled"/>
+                          <button id="btn-robot-sad" class="expression-btn btn-robot-sad btn-mood-passive" title="sad" value="SAD" title="Sad" disabled="disabled"/>
+                          <button id="btn-robot-bored" class="expression-btn btn-robot-bored btn-mood-passive" title="bored" value="BORED" title="Bored" disabled="disabled"/>
+                          <button id="btn-robot-play-music" class="expression-btn btn-robot-play-music btn-mood-passive" title="playing music" value="PLAYING_MUSIC" title="Playing music" disabled="disabled"/>
+                      </div>
+                      <div style="margin-left: 5px; padding-top: 2px">
+                          <select id="dd-song" disabled="disabled">
+                              <option value="NONE">No Song</option>
+                              <option value="ANTHEM">Anthem</option>
+                              <option value="THE_ROBOTS">Robots</option>
+                              <option value="OUROBOROS">Ourobor</option>
+                              <option value="MONKEY_SPIN">Monkey</option>
+                              <option value="KICK_SHOCK">K. Shock</option>
+                              <option value="FLUFFING_DUCK">Duck</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div>
+                  </div>
+              </div>
+          </div>
+          <div id="about">
+              <p><a id="about-img-a" href="images/about-acc-my-view.jpg" onclick="return morePicRef('about-img');"><img id="about-img" src="images/small/about-acc-my-view.jpg"/></a>My name is <a href="images/about-acc-olegfomin.jpg" onclick="return morePicUrl('images/about-acc-olegfomin.jpg');">Oleg Fomin</a> and I have been a professional software engineer and the robotic application enthusiast for the last twenty two years.
+                   About two months ago I asked myself a question: "Where are they?". Those helping robots I've been reading about in the science fiction novels since I was ten.
+                   I could not see them anywhere in person so I decided to build one ...
+              </p>
+              <div id='about-acc' class="accordion right-top-picture">
+                  <h3>
+                      The S.P.A.R. project ...
+                  </h3>
+                  <div id="about-acc-my-view" class="jpg-ext">
+                      I believe we are really fortunate to witness this exceptionally advantageous period in human existence. I am sure
+                      our planet will become an even better place very soon. We the People of the World must stay creative and innovative instead of spending our valuable time at the grinding stone.
+                      The robots and other smart automated processes must lift heavy stuff and crunch more numbers.
+                      The intelligent self-propelled machines combined with the more <a href="http://www.lockheedmartin.com/us/products/compact-fusion.html" onclick="return more('https://en.wikipedia.org/wiki/High_beta_fusion_reactor');">capable energy sources</a> are almost here and ready to serve the mankind.
+                      Together we shall transform the place where we were all born into the developed oasis that will be full of food, clean water, decent dwellings, smiles and laughter.
+                      The things like diseases, hunger and war will be made a history in a little while.
+                      The open source software and hardware projects are going to be the backbone of our success and our healthy growth for the foreseeable future.
+                      Turning the Earth into the much happier place is within our reach and we should all participate in doing so!<br><br>
+                  </div>
+                  <h3>Software development in general ... </h3>
+                  <div id='about-acc-dos' class="gif-ext">
+                      The main question any Software Development company should answer is <b>how to ensure the quality</b> of the software you produce
+                      and at the same time <b>how to support the creativity</b> of Engineers/Developers.
+                      Honestly while you are in <a href="https://en.wikipedia.org/wiki/Flow_(psychology)" onclick="return more('https://en.wikipedia.org/wiki/Flow_(psychology)');">the creative state</a> then the last thing you are thinking of is the coding standards and corporate guidelines.
+                      My personal answer to this question is going to be a two-face check-in and a little bit more:
+                      <p>
+                          <ul>
+                            <li><a href="ext/about-acc-quality-gate.html" onclick="return more('ext/about-acc-quality-gate.html');"><b>DO:</b> Creativity&Quality with two-face check-in</a></li>
+                            <li><a href="main.html#about-acc-dos" onclick="return more(null, '8');"><b>DO:</b> Small motivated groups above all</a></li> <div id="8" class="fly-over">The development teams must stay small and we must be motivated at any cost ...</div>
+                            <li><a href="main.html#about-acc-dos" onclick="return more(null, 'early-integration')"><b>DO:</b> Early integration between teams!</a></li> <div id='early-integration' class="fly-over">Collaboration between teams is essential! The frequent fun company-wide events are paramount plus the equal number of female and male participants in any given team ...</div>
+                            <li><b>DO:</b> <span title="Easier said than done ...">Make it Simple & Reliable!</span></li>
+                            <li><a href="main.html#about-acc-donts" onclick="return more(null, 'meeting');"><b>STOP:</b> Too many sleepy meetings</a></li> <div id="meeting" class="fly-over">Please refer to the 'Dilbert cartoons about meetings'. They are very true ... </div>
+                            <li><a href="main.html#about-acc-donts" onclick="return more(null, 'decision');"><b>STOP:</b> Disregarding your team moral impact</a></li> <div id='decision' class="fly-over">Engineers are highly capable people and they are usually equipped with the good long term memory. They are not going to forget if their management acts like: "They are getting paid then who cares what they feel ...". If you must deliver undesirable news to the team then you gotta take time to explain yourself! </div>
+                            <li><b>STOP:</b> Being Penny Wise and the Pound Foolish</li>
+                            <li><a href="main.html#about-acc-donts" onclick="return more(null, 'addicted');"><b>STOP:</b> Being addicted to the drama</a></li> <div id='addicted' class="fly-over">I fully agree to the 'BLACK EYED PEAS' band words: "I think the whole world addicted to the drama. Only attracted to things that'll bring you trauma"</div>
+                          </ul>
+                      </p>
+                  </div>
+                  <h3>Looking for a CTO or Principal Developer?</h3>
+                  <div id='about-acc-cto' class="jpg-ext">
+                      <p>I started my career as a Software developer in the year 1994 and I have been living and working in three cities since then: Moscow, Dublin and here in beautiful Seattle.
+                          I am ready to join your business whether you are a start-up or a well established company. Here below are the qualities that I believe define me as a professional:</p>
+                      <ul>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'optimism');">Unwaning enthusiasm and over two decades of experience</a></li><div id="optimism" class="fly-over">In fact I am more optimistic about software development, automation and robotics than ever</div>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'dedication');">Dedication and stability</a></li> <div id='dedication' class="fly-over">Staying put with the same company despite temporary hardship. Never dumping the place for the sake of 'change' </div>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'mobility');">Mobility including permanent re-location</a></li> <div id='mobility' class="fly-over">For the right incentive I can relocate to any place in the developed part of the world where my skills and abilities are going to be appreciated </div>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'courage');">Courage to take a justifiable risk</a></li> <div id='courage'  class="fly-over">Many companies failed because of the risk aversion and inability to change the well-established route even when it was evident that the road leads to the failure  </div>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'multi-cultural');">Pro-Western and multi-cultural values</a></li> <div id="multi-cultural" class="fly-over"> Russia, Western Europe and now United States gave me invaluable knowledge </div>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'auto');">Focusing on efficiency and automation</a></li> <div id='auto' class="fly-over">Smaller sizes and the motivated teams members are the real key success</div>
+                          <li><a href="main.html#about-acc-cto" onclick="return more(null, 'open-source');">Open source software over commercial products</a></li> <div id="open-source" class="fly-over">However some paid development tools like WebStorm are essential. Here is important to remember how ridiculous it to save a penny while wasting a pound</div>
+                          <li><a href="https://en.wikipedia.org/wiki/Pareto_principle" onclick="return more('https://en.wikipedia.org/wiki/Pareto_principle');" >Practicing 80/20 principle</a></li>
+                      </ul>
+                  </div>
+
+              </div>
+          </div>
+          <div id="contact">
+              <p><img src="images/contact.png"/>Please feel free to get in touch with me via e-mail, Linked-In, leave the comments for my YouTube videos or simply leave me the free text message here below.
+              Your feedback is really important for me so please allocate couple of minutes to write a short letter about what you think about my robotic project and this web-site</p>
+              <div id='contact-acc' class="accordion">
+                  <h3>E-mail addresses</h3>
+                  <div id='contact-acc-email'>
+                      <ul>
+                          <li><a href="mailto:olegfomin@roboticseattle.com">olegfomin@roboticseattle.com</a> - Any matter you feel like </li>
+                          <li><a href="mailto:admin@roboticseattle.com">admin@roboticseattle.com</a> - Web-site issues </li>
+                          <br><br><br><br><br><br><br>
+                      </ul>
+                  </div>
+                  <h3>Linked-In</h3>
+                  <div id='contact-acc-linkedin'>
+                     <a href="https://www.linkedin.com/in/oleg-fomin-6b962b99" onclick="return more(null, 'linkein');">Here is my Linked-In profile</a><div id="linkein" class="fly-over">https://www.linkedin.com/in/oleg-fomin-6b962b99</div>
+                      I shall gladly accept your connection requests. Please put couple of lines about yourself in the invitation description unless I know you personally ...
+                  </div>
+                  <h3>My YouTube videos</h3>
+                  <div id='contact-acc-youtube'>
+                      Coming here. So far I only have <a href="ext/main-acc-unique-2-songs.html" onclick="return more('ext/main-acc-unique-2-songs.html')">two songs</a> that I shall use in the trailer :-)
+                  </div>
+                  <h3>Free message</h3>
+                  <div id='contact-acc-message'>
+                      <textarea id='ta-msg' rows="8" cols="55">Please enter your text here</textarea>
+                      <button id="btn-msg-submit">Submit</button>
+                  </div>
+              </div>
+          </div>
+          <div id="more" class="dispensable">
+              <button type="button" onclick="closeMore()">&lt;&lt; Return</button>
+              <div id="fly-dest"></div>
+              <img id="img-more" style="width: 640px; height: 480px; float: left; display: none; margin-top: 5px" src="#"/>
+              <div id="frame-container"></div>
+              <button type="button" onclick="closeMore()">&lt;&lt; Return</button>
+          </div>
+       </div>
+    </div>
+  </div>
+  <script>
+      $(".accordion").accordion();
+      $("#tabs" ).tabs({ disabled: [6]});
+      $("#pan-slider").slider({min: -60, max: 60, step: 3, disabled: 'disabled'});
+      $("#tilt-slider").slider({orientation: "vertical", min: -60, max: 60, value: -26, step: 3, disabled: 'disabled'});
+      $("#btn-say" ).button({disabled: 'disabled'});
+  </script>
+  <script src="js/site/btn-vote.js"></script>
+  <script src="js/site/tab-more.js"></script>
+  <script src="js/site/acc-act.js"></script>
+  <script src="js/site/tab-act.js"></script>
+  <script src="js/site/nav.js"></script>
+  <script src="js/site/pos.js"></script>
+  <script src="js/site/spn-spar.js"></script>
+  <script src="js/site/free-msg.js"></script>
+  <script src="js/body/img-display.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getText()
+comment1.params=text
+comment1.target=void\ setText(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getSong()
+comment3.params=song
+comment3.target=void\ setSong(java.lang.String)
+comment4.params=
+comment4.target=com.roboticseattle.spar.body.Mouth.SONG\ getMouthSong()
+numComments=5

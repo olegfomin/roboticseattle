@@ -1,7 +1,7 @@
 package com.roboticseattle.common;
 
 public class HeartBeat extends Command {
-    private int  status; // 0- initiated by SPAR, 1 - reached only www.roboticseattle.com (no browser); 2- Reached all the way to the browser; 
+    private int  status; // 2- Reached all the way to the browser; 1 - reached only www.roboticseattle.com (no browser) 
     private long currentTime;
     private int  lastLapse;
     

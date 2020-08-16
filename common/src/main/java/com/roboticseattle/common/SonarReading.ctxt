@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SonarReading()
+comment1.params=aDirection
+comment1.target=void\ setDirection(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDirection()
+comment3.params=aDistance
+comment3.target=void\ setDistance(int)
+comment4.params=
+comment4.target=int\ getDistance()
+numComments=5

@@ -6,7 +6,7 @@
   <name>jettywebsockettest</name>
   <packaging>war</packaging>  
   <properties>
-    <jetty.version>9.3.0.RC1</jetty.version>
+    <jetty.version>9.4.41.v20210516</jetty.version>
   </properties>
   <dependencies>
   	<dependency>
